@@ -16,7 +16,7 @@ namespace CompleteProject
             // Set up the references.
             player = GameObject.FindGameObjectWithTag ("Player").transform;
             playerHealth = player.GetComponent <PlayerHealth> ();
-            enemyHealth = GetComponent <EnemyHealth> ();
+            enemyHealth = GetComponent<EnemyHealth>();
             nav = GetComponent <NavMeshAgent> ();
         }
 
