@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C3AC6465-2E5A-9504-3500-56DC6041EBD7}</ProjectGuid>
+    <ProjectGuid>{3DF29036-80D3-4F3B-1601-C535ECE659D3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -45,7 +45,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Camera\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyAttack.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyHealth.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyMovement.cs" />
@@ -55,18 +54,18 @@
      <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerShooting.cs" />
+     <Compile Include="Assets\_CompletedAssets\MobileInput\Scripts\CrossPlatformInputManager.cs" />
+     <Compile Include="Assets\_CompletedAssets\MobileInput\Scripts\Joystick.cs" />
+     <Compile Include="Assets\_CompletedAssets\MobileInput\Scripts\MobileControlRig.cs" />
+     <Compile Include="Assets\_CompletedAssets\MobileInput\Scripts\PlatformSpecific\MobileInput.cs" />
+     <Compile Include="Assets\_CompletedAssets\MobileInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
+     <Compile Include="Assets\_CompletedAssets\MobileInput\Scripts\VirtualInput.cs" />
      <Compile Include="Assets\_CompletedAssets\SampleAssets\Effects\ImageEffects\Scripts\BloomOptimized.cs" />
      <Compile Include="Assets\_CompletedAssets\SampleAssets\Effects\ImageEffects\Scripts\ColorCorrectionCurves.cs" />
      <Compile Include="Assets\_CompletedAssets\SampleAssets\Effects\ImageEffects\Scripts\PostEffectsBase.cs" />
      <Compile Include="Assets\_CompletedAssets\SampleAssets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs" />
      <Compile Include="Assets\_CompletedAssets\SampleAssets\Effects\ImageEffects\Scripts\TiltShift.cs" />
      <Compile Include="Assets\_CompletedAssets\SampleAssets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
-     <Compile Include="Assets\_CompletedAssets\SampleAssets\MobileInput\Scripts\CrossPlatformInputManager.cs" />
-     <Compile Include="Assets\_CompletedAssets\SampleAssets\MobileInput\Scripts\Joystick.cs" />
-     <Compile Include="Assets\_CompletedAssets\SampleAssets\MobileInput\Scripts\MobileControlRig.cs" />
-     <Compile Include="Assets\_CompletedAssets\SampleAssets\MobileInput\Scripts\PlatformSpecific\MobileInput.cs" />
-     <Compile Include="Assets\_CompletedAssets\SampleAssets\MobileInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
-     <Compile Include="Assets\_CompletedAssets\SampleAssets\MobileInput\Scripts\VirtualInput.cs" />
      <Compile Include="Assets\_CompletedAssets\Scripts\Audio\MixLevels.cs" />
      <Compile Include="Assets\_CompletedAssets\Scripts\Camera\CameraFollow.cs" />
      <Compile Include="Assets\_CompletedAssets\Scripts\Enemy\EnemyAttack.cs" />
